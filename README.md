@@ -7,7 +7,7 @@
 - import framework in your view controller.
 - Use below code:
 
-    let detect = FallingDetect()
-    detect.DetectFalling { fallDetected in
-<!-- You will get the fallDetected (Boolean) true when the free fall is detected -->
-    }
+let detect = FallingDetect()
+detect.DetectFalling { fallDetected in
+  // You will get the `fallDetected` (Boolean) true when the free fall is detected
+}
