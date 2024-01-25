@@ -1,0 +1,11 @@
+framework module FallingDetector {
+  umbrella header "FallingDetector.h"
+
+  export *
+  module * { export * }
+}
+
+module FallingDetector.Swift {
+  header "FallingDetector-Swift.h"
+  requires objc
+}
